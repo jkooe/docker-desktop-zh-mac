@@ -19,15 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-注意（第三方组件）
-
-本仓库不包含任何 DDCS 代码或翻译数据。安装脚本会在运行时从上游仓库
-https://github.com/asxez/DDCS 下载其源码，并作为一个独立程序调用它。
-DDCS 由其作者 ASXE 以 GNU General Public License v3.0 发布，其许可证
-与免责声明仅适用于该上游项目本身，详见上游仓库。
-
-Docker、Docker Desktop 是 Docker, Inc. 的商标。本项目与 Docker, Inc. 无关，
-也未获得其授权或背书。

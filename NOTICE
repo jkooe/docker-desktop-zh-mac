@@ -1,0 +1,27 @@
+# NOTICE
+
+## 第三方组件
+
+### DDCS
+
+本仓库**不包含** DDCS 的任何源代码或翻译数据。安装脚本只是在运行时从上游仓库
+下载其源码，并作为**独立程序**调用它。
+
+- 上游：<https://github.com/asxez/DDCS>
+- 作者：ASXE
+- 许可证：**GNU General Public License v3.0**
+
+DDCS 的许可证与免责声明仅适用于该上游项目本身。若你要再分发 DDCS，
+请遵守其 GPL-3.0 条款。本仓库自身以 MIT 发布（见 `LICENSE`）。
+
+### Docker Desktop
+
+Docker、Docker Desktop 是 Docker, Inc. 的商标。
+
+本项目与 Docker, Inc. **无任何关联**，也未获得其授权、赞助或背书。
+本项目只是对用户本机上已安装的软件做界面文本替换。
+
+## 关于 `data/official-asar-sha256.txt`
+
+该文件收录 Docker Desktop 官方发布包中 `app.asar` 的文件指纹，
+仅用于**判断**本机安装文件是否被改动过。它不包含任何 Docker 代码或资源。

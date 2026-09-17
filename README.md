@@ -182,6 +182,8 @@ docker-desktop-zh-mac/
 ├── docs/
 │   ├── how-it-works.md      # 原理详解
 │   └── troubleshooting.md   # 故障排查
+├── LICENSE                  # MIT
+├── NOTICE                   # 第三方组件声明
 ├── backups/                 # 备份（运行时生成，已 gitignore）
 └── .ddcs/  .venv/           # 工具链（运行时生成，已 gitignore）
 ```
@@ -192,7 +194,8 @@ docker-desktop-zh-mac/
 **[asxez/DDCS](https://github.com/asxez/DDCS)**（作者 ASXE，**GPL-3.0**）。
 
 本仓库**不包含**其任何代码或数据，只在运行时下载并作为独立程序调用。
-因此本仓库以 MIT 发布；DDCS 本身仍受 GPL-3.0 约束。
+因此本仓库以 **MIT** 发布；DDCS 本身仍受 GPL-3.0 约束。
+详见 [`NOTICE`](NOTICE)。
 
 上游会按 Docker Desktop 版本发布成品汉化包：
 <https://github.com/asxez/DDCS/releases> —— 如果你只想赶快用上，
