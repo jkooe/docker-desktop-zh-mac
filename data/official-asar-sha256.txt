@@ -1,0 +1,18 @@
+# Docker Desktop 官方 app.asar 指纹表
+#
+# 用途：判断本机 app.asar 是不是未被改动的官方原版。
+#
+# 为什么不能只看 Info.plist：
+#   Info.plist 里的 ElectronAsarIntegrity 只能证明「内部自洽」——
+#   汉化成功后该哈希会被同步，所以它无法区分「官方原版」和「已成功汉化」。
+#   要真正判断是否原版，只能靠文件指纹比对。
+#
+# 格式（空格分隔，# 开头为注释）：
+#   <Docker版本>  <CPU架构>  <app.asar 文件 SHA256>  <字节数>
+#
+# 欢迎提交你手上官方安装包的指纹（macOS 路径）：
+#   .../Docker Desktop.app/Contents/Resources/app.asar
+#   计算：shasum -a 256 ".../Contents/Resources/app.asar"
+
+# 版本     架构     SHA256                                                           字节数
+4.91.0    arm64    ce1cd456c29fbd69f9ec759734ad52ffbcfdcc8c39bcd3be815222f8bf6b94c4 27911794

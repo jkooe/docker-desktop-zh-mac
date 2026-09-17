@@ -1,0 +1,23 @@
+# 运行时与工具链（install.command 首次运行会自动生成）
+.ddcs/
+.venv/
+node_modules/
+
+# 备份：体积很大（每份约 27 MB），且含 Docker 官方文件，不要提交
+backups/
+
+# asar 归档
+*.asar
+*.asar.unpacked/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# 临时文件
+*.tmp
+*.bak
+_ddz-*
